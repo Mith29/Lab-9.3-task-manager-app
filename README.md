@@ -5,21 +5,21 @@ A simple Task Manager application built using React and TypeScript. This app dem
 
  # Features:
 
-*Add and manage tasks
+* Add and manage tasks
 
-*Update task status (Pending, In Progress, Completed)
+* Update task status (Pending, In Progress, Completed)
 
-*Delete tasks
+* Delete tasks
 
-*Filter tasks by:
+* Filter tasks by:
 
-*Status
+* Status
 
-*Priority
+* Priority
 
-*Strong TypeScript typing
+* Strong TypeScript typing
 
-*Clean component structure
+* Clean component structure
 
 
 
