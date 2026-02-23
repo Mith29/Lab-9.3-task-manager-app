@@ -5,21 +5,21 @@ A simple Task Manager application built using React and TypeScript. This app dem
 
  Features:
 
-Add and manage tasks
+-Add and manage tasks
 
-Update task status (Pending, In Progress, Completed)
+-Update task status (Pending, In Progress, Completed)
 
-Delete tasks
+-Delete tasks
 
-Filter tasks by:
+-Filter tasks by:
 
-Status
+-Status
 
-Priority
+-Priority
 
-Strong TypeScript typing
+-Strong TypeScript typing
 
-Clean component structure
+-Clean component structure
 
 
 
@@ -28,11 +28,11 @@ Clean component structure
 Set up:
 1. Install dependencies:
 
-npm install
+    npm install
 
 2. Run the development server:
 
-npm run dev
+    npm run dev
 
 
 
@@ -40,13 +40,15 @@ npm run dev
 
 Components:
 
+
 TaskList:
 
-Renders a list of tasks
+-Renders a list of tasks
 
-Receives tasks as props
+-Receives tasks as props
 
-Passes handlers to TaskItem
+-Passes handlers to TaskItem
+
 
 
 
@@ -56,9 +58,11 @@ Displays individual task details.
 
 Allows:
 
-Status update
+-Status update
 
-Task deletion
+-Task deletion
+
+
 
 
 
@@ -66,11 +70,13 @@ TaskFilter:
 
 Filters tasks by:
 
-Status
+-Status
 
-Priority
+-Priority
 
-Sends selected filters back to parent component
+-Sends selected filters back to parent component
+
+
 
 
 
@@ -86,7 +92,7 @@ filteredTasks → Dynamically filters tasks based on selected filters
 
 
 
-Reflection Questions:
+* Reflection Questions:
 
 1.How did you ensure unique keys for your list items?
 
